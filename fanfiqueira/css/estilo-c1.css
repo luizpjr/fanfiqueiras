@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+
+html, body {
+    max-width: 10%;
+    overflow-x: hidden;
+
+    background-image: url(../img/assest/Ativo\ 7.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center top;
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*----------------------figcaption---------------*/
+
+figure {
+
+    padding: 4px;
+    margin: auto;
+  }
+
+.img-cap {
+    display: block;
+    height: 350px;  
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.img-cap-destaque {
+    display: block;
+    height: 670px;  
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+figcaption {
+    padding: 2px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+
+    color: #493B63;
+
+    text-align: center;
+}
+
+.img-figure {
+    width: 100%;
+    height: 100%;
+   
+    max-height: 750px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: contain;
+}
+
+
+#imagem-center {
+    display: block;
+    height: 350px;  
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+#capition-center {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+
+    color: #493B63;
+}
+
+blockquote {
+    display: flex;
+}
+
+a {
+    outline: 0 !important;
+	color: #432b7d;
+	font-weight: bold;
+}
+
+a.link-sociais:link {
+	font-weight: bold;
+	text-decoration:none;
+  }
+
+a.link-sociais:hover {
+	color:#422b7d;
+	background-color:#422b7d52;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.titulo-1 {
+    text-align: center;
+    padding: 3vw;
+    position: relative;
+}
+
+.titulo-1 > h3 {
+    color: #fceee0;
+}
+
+.ctnFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.op1 img {
+    width: 400px;
+    height: 400px;
+    padding-left: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.balao2{
+    margin: 0 auto; 
+    background: #fceee0;
+    font-family: 'open sans';
+    font-size: 0.85em;
+    line-height: 1.6em;  
+    border-radius: 15px;
+    width: 450px;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    padding-right: 25px;
+    position: relative;
+    margin-top: 30px;
+}
+.balao2:after{ /*Triangulo*/
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 32px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-bottom: 34px solid #fceee0;
+    top: 4px; 
+    left: -6%;
+}
+
+/*----------------------------CARD Destaque--------------------*/
+
+.card {
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 0;
+    align-items: center;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* --------------Section inicial ---------------------------*/
+
+.inicial{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url('../img/assest/Ativo\ 7.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    top: 230px;
+}
+
+.inicial-1 {
+    padding-top: 104px;
+}
+
+.block-cap1{
+    border: 3px solid #493B63;
+    height: auto;
+    background-color: #fff;
+}
+.block-body{
+    padding: 30px 150px 30px 150px;
+}
+.block-cap1 > .block-head{
+    height:63px;
+    background-color: #e577b1;
+    border-bottom: 3px solid #493B63;
+    position: relative;
+}
+img.titulo{
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+img.titulo-cap3 {
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+img.titulo-cap4 {
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.titulo-agradecimento{
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+
+img.img-personagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 30%;          
+}
+
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+
+    color: #493B63;
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #493B63;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    
+    color: #493B63;
+}
+
+i {
+    font-style: italic;
+}
+
+.block-2{
+    position: relative;
+    bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    margin: auto;
+    width: 550px;
+    height: 381px;
+    border-radius: 20px;
+    
+}   
+.block-2-head{
+    background-color:#493b63;
+    height:63px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding:20px;
+}
+.circle{
+    width:20px;
+    height:20px;
+    background-color: #fceee0;
+    border-radius:50%;
+    margin-right: 10px;
+}
+.block-2-body > img{
+    width:100%;
+    height:312px;
+    object-fit: cover;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+/*---------------- Section sitação ---------------------------*/
+
+.sitacao {
+    background-image: url(../img/assest/Ativo\ 3.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+
+    position: relative;
+    top: 231px; 
+    
+}
+
+/*---------------- Section Destaque --------------------------*/
+
+.destaque {
+    background-image: url(../img/assest/Ativo\ 2.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    top: 104px;
+}
+
+
+/* -------------- Section TimeLine --------------------- */
+
+.cd-container {
+    background-image: url(../img/assest/Ativo\ 2.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cd-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#cd-timeline {
+    position: relative;
+}
+
+#cd-timeline::before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    height: 5900px;
+    width: 8px;
+    background: #7e57c2;
+}
+
+#imagem-direita {
+    height: 253px;
+    left: 819px;
+    top: 2890px;
+
+    object-fit: cover;
+}
+
+
+.cd-timeline-block {
+    position: relative;
+}
+.cd-timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cd-timeline-block:first-child {
+    margin-top: 0;
+}
+.cd-timeline-block:last-child {
+    margin-bottom: 0;
+}
+
+.cd-timeline-img {
+    position: absolute;
+    top: 95px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #7e57c2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.cd-timeline-img {
+    background: #673ab7;
+}
+
+.cd-timeline-content {
+    margin-left: 60px;
+    margin-right: 30px;
+    border-radius: 2px;
+    padding: 1em;
+}
+
+.cd-timeline-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cd-timeline-content h2 {
+    width: 403px;
+    height: 47px;
+    left: 819px;
+    top: 3263px;
+
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+
+    color: #493B63;
+}
+.cd-timeline-content p .descricao {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.035em;
+
+    color: #493B63;
+}
+
+.cd-timeline-content p {
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+/* ----------- Section final ---------------------*/
+
+.cap-final {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url('../img/assest/Ativo\ 7.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    top: 104px;
+}
+
+.block-cap2{
+    border: 3px solid #493B63;
+    height: auto;
+    background-color: #fff;
+}
+
+.block-body{
+    padding: 30px 150px 30px 150px;
+}
+
+.block-cap2 > .block-head{
+    height:63px;
+    background-color: #e577b1;
+    border-bottom: 3px solid #493B63;
+    position: relative;
+}
+
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #493B63;;
+}
+
+.block-3{
+    position: relative;
+    top: 120px;
+    bottom: 250px;
+    padding-left: 50px;
+    padding-right: 50px;  
+    margin: auto;
+    width: 550px;
+    border-radius: 20px;   
+}
+
+.block-2-head{
+    top: 250px;
+    background-color:#493b63;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding:20px;
+}
+
+.block-3-body .raio1 .coracao1 > img{
+    width:100%;
+    object-fit: cover;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.raio1 {
+    position: relative;
+    object-fit: cover;
+    width: 179px;
+    height: 310px;
+    left: 380px;
+    bottom: 250px;
+}
+
+ .coracao1 {
+    position: absolute;
+    object-fit: cover;
+    right: 370px;
+    bottom: 920px;
+    transform: rotate(-12.89deg);
+}
+
+
+.img-next {
+    position: relative;
+    border-radius: 50px;
+    bottom: 15px;
+    left: 1015px;
+}
+
+.img-next-sobre {
+    position: relative;
+    border-radius: 50px;
+    bottom: 15px;
+    left: 1015px;
+}
+
+
+/* ------------- Section Footer -------------------- */
+
+.footer-site {
+    background-image: url(../img/assest/Ativo\ 1.png);
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+
+/*---------------------- Responsive ---------------------------------*/
+
+@media (max-width: 1024px) {
+    .img-next {
+        left: 600px;
+    }
+}
+
+
+@media (max-width:760px) {
+
+   p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #493B63;
+} 
+
+.block-cap1 > .block-head {
+    box-sizing: border-box;
+    width: 90vw;
+    height: 8vh;
+    background-color: #e577b1;
+    border: 3px solid #493B63;
+    position: relative;
+}
+
+.block-cap1 {
+    border: 3px solid #493B63;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 90vw;
+}
+
+.block-body {
+    padding: 8vw;
+    box-sizing: border-box;
+    width: 85vw;
+}
+
+img.titulo {
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 8vw;
+}
+
+.block-2 {
+    position: relative;
+    bottom: 35px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin: auto;
+    width: 80vw;
+    height: auto;
+    border-radius: 20px;
+}
+
+}
+
+
+
+/* ----------------------------------------------------------*/
+
+@media only screen and (min-width: 1170px) {
+   
+    #cd-timeline::before {
+        left: 50%;
+        margin-left: -2px;
+        height: 8300px;
+   }
+}
+
+@media only screen and (min-width: 1170px) {
+    
+    .cd-timeline-block:first-child {
+        margin-top: 0;
+   }
+    .cd-timeline-block:last-child {
+        margin-bottom: 0;
+   }
+}
+
+@media only screen and (min-width: 1170px) {
+    .cd-timeline-img {
+        width: 30px;
+        height: 30px;
+        left: 50%;
+        margin-left: -15px;
+        margin-top: 15px;
+       /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+   }
+}
+
+@media (max-width: 500px) {
+    .cd-timeline-content {
+        display: block;
+        width: 100%;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-timeline-content h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+   }
+    .cd-timeline-content p {
+        font-size: 16px;
+        font-size: 1rem;
+   }
+    .cd-timeline-content {
+        font-size: 14px;
+        font-size: 0.875rem;
+   }
+}
+@media only screen and (min-width: 1170px) {
+    .cd-timeline-content {
+        color: white;
+        margin-left: 0;
+        padding: 1.6em;
+        width: 36%;
+        margin: 0 5%;
+   }
+
+    .cd-timeline-content .cd-date {
+        position: absolute;
+        width: 100%;
+        left: 122%;
+        top: 6px;
+        font-size: 16px;
+        font-size: 1rem;
+   }
+    .cd-timeline-block:nth-child(even) .cd-timeline-content {
+        float: right;
+   }
+    
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+        float: right;
+   }
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+        left: auto;
+        right: 122%;
+        text-align: right;
+   }
+}

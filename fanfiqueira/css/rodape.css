@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.site-footer__copyright  {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 43px;
+  text-align: center;
+  color: #F4C95D;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.logo-footer img {
+    float: left;  
+    width: 363px;
+}
+
+  .site-footer__copyright {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-flex;
+    line-height: 35px;
+  }
+
+  .site-footer__social {
+    float: right;
+  }
+
+  .site-footer__social a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    background-image: url(../img/assest/icons.png);
+    text-indent: -9000px;
+    float: left;
+    margin-left: 8px;
+  }
+
+  .social-icons__insta {
+    background-position: 181px -118px;
+  }
+
+  .social-icons__yt {
+    background-position: 180px -309px;
+  }
+
+  .social-icons__tw {
+    background-position: -123px -308px;
+  }
+
+  .social-icons__sp {
+    background-position: -415px -1074px;
+  }
+

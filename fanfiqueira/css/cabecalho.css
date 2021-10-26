@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url(../img/assest/Ativo\ 2.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.header{
+    
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    padding: 0 20px;
+    background: #A9216D;
+    border: 3px solid #493B63;
+    box-sizing: border-box;
+
+
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+
+}
+
+
+.logo a {
+    position: absolute;
+    width: 363px;
+    height: 71px;
+    left: 102px;
+    top: 20px;
+    
+    background-image: url(../img/assest/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+  
+.menu{
+    float: right;
+    line-height: 100px;
+  }
+.menu a{
+  width: 62px;
+  height: 43px;
+  left: 933px;
+  top: 37px;
+  padding: 0 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+  color: #F4C95D;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.fas {
+    color: #F4C95D;
+}
+
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #493B63;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.content{
+  padding: 0 20px;
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+
+@media screen and (max-width:800px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    background: #A9216D;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .logo a{
+    position: absolute;
+    width: 200px;
+    left: 15px;
+    top: 30px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
